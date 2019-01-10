@@ -1,0 +1,131 @@
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+
+       <View
+           android:id="@+id/viewBackground"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@drawable/background"/>
+
+
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="35dp"-->
+        <!--android:text="Popluar Movies"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:background2="#01021b"-->
+        <!--android:clickable="false"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--/>-->
+
+       <TextView
+           android:id="@+id/theOverLappingTextView"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:textSize="20sp"
+           android:text="Popluar Movies"
+           android:background="@drawable/rounded_corner"
+           android:layout_gravity="center_horizontal"
+
+
+           android:paddingStart="13dp"
+           android:paddingEnd="13dp"
+           android:paddingTop="10dp"
+           android:paddingBottom="13dp"
+           android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+
+
+           android:textStyle="bold"
+           android:textColor="@color/white"
+
+           />
+
+       <!--<android.support.constraint.ConstraintLayout-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="match_parent">-->
+
+           <android.support.v7.widget.RecyclerView
+               android:id="@+id/recyclerviewforOverLapping"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@android:color/transparent"
+               android:clipToPadding="false"
+               android:paddingStart="10dp"
+               android:paddingTop="40dp"
+               android:layout_marginTop="5dp"
+
+
+
+
+
+               />
+
+
+           <!--<TextView-->
+               <!--android:id="@+id/TextViewforSecondRow"-->
+               <!--android:layout_width="wrap_content"-->
+               <!--android:layout_height="wrap_content"-->
+               <!--android:text="Popular Tv"-->
+               <!--app:layout_constraintTop_toBottomOf="@id/recyclerviewforOverLapping"-->
+               <!--app:layout_constraintBottom_toTopOf="@+id/recyclerviewforSecondRow"/>-->
+
+
+           <!--<android.support.v7.widget.RecyclerView-->
+               <!--android:id="@+id/recyclerviewforSecondRow"-->
+               <!--android:layout_width="wrap_content"-->
+               <!--android:layout_height="wrap_content"-->
+               <!--app:layout_constraintTop_toBottomOf="@id/TextViewforSecondRow"-->
+               <!--app:layout_constraintBottom_toTopOf="@+id/TextViewforThirdRow"/>-->
+
+
+           <!--<TextView-->
+               <!--android:id="@+id/TextViewforThirdRow"-->
+               <!--android:layout_width="wrap_content"-->
+               <!--android:layout_height="wrap_content"-->
+               <!--android:text="Popular Cartoon"-->
+               <!--app:layout_constraintTop_toBottomOf="@id/recyclerviewforSecondRow"-->
+               <!--app:layout_constraintBottom_toTopOf="@+id/recyclerviewforThirdRow"/>-->
+
+
+           <!--<android.support.v7.widget.RecyclerView-->
+               <!--android:id="@+id/recyclerviewforThirdRow"-->
+               <!--android:layout_width="wrap_content"-->
+               <!--android:layout_height="wrap_content"-->
+               <!--app:layout_constraintTop_toBottomOf="@id/TextViewforThirdRow"-->
+               <!--app:layout_constraintBottom_toTopOf="@+id/TextViewforFourthRow"/>-->
+
+           <!--<TextView-->
+               <!--android:id="@+id/TextViewforFourthRow"-->
+               <!--android:layout_width="wrap_content"-->
+               <!--android:layout_height="wrap_content"-->
+               <!--android:text="Popular Comedy"-->
+               <!--app:layout_constraintTop_toBottomOf="@id/recyclerviewforThirdRow"-->
+               <!--app:layout_constraintBottom_toTopOf="@+id/recyclerviewforFourthRow"/>-->
+
+
+           <!--<android.support.v7.widget.RecyclerView-->
+               <!--android:id="@+id/recyclerviewforFourthRow"-->
+               <!--android:layout_width="wrap_content"-->
+               <!--android:layout_height="wrap_content"-->
+               <!--app:layout_constraintTop_toBottomOf="@id/TextViewforFourthRow"/>-->
+
+
+
+
+
+
+
+       <!--</android.support.constraint.ConstraintLayout>-->
+
+
+
+   </FrameLayout>
+
+
